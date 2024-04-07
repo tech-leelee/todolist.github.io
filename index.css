@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+body {
+    background-color: #FEECE2;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Leckerli One", cursive;
+    font-size: 100px;
+    color: #FFBE98;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+.item-description {
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+.item-completed:checked + .item-description {
+    background-color: #F7DED0;
+    text-decoration: line-through;
+}
+
+/* #add {
+    padding: 8px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #E2BFB3;
+    cursor: pointer;
+} */
+
+
+button {
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 30px;
+color: #fff;
+background-color: #ffbe98;
+padding: 10px 30px;
+border: none;
+box-shadow: rgb(226, 191, 179) -3px 6px 29px 3px;
+border-radius: 24px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+button:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #e2bfb3;
+color: #ffffff;
+border: none;
+}

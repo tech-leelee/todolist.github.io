@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div id="items">
+        
+        <template id="itemTemplate">
+            <div class="item">
+                <input type="checkbox" class="item-completed check">
+                <input type="text" class="item-description" placeholder="to do...">
+            </div>
+        </template>        
+    </div>
+    <button id="add">Add Item</button>
+    <button id="clear">Clear List</button>
+
+</body>
+</html>
